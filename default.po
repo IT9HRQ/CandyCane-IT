@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-26 15:25+0200\n"
+"PO-Revision-Date: 2016-09-26 16:29+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -183,7 +183,7 @@ msgstr "Votre accès RSS a été réinitialisé."
 # label_user_mail_option_all
 #: Controller/MyController.php:209
 msgid "\"For any event on all my projects\""
-msgstr "\"Pour chaque évènement sur l'ensemble de mes projets\""
+msgstr "\"Per ogni evento nei miei progetti\""
 
 # label_user_mail_option_selected
 #: Controller/MyController.php:212
@@ -240,7 +240,7 @@ msgstr "Général"
 #: View/Elements/admin/sidebar.ctp:4 View/Helper/CustomFieldHelper.php:39
 #: View/Projects/index.ctp:18
 msgid "Projects"
-msgstr "Projets"
+msgstr "Progetti"
 
 # status_registered
 #: Controller/UsersController.php:186
@@ -791,7 +791,7 @@ msgstr "Mot de passe oublié"
 # label_login
 #: View/Account/login.ctp:38 View/Elements/account_menu.ctp:8
 msgid "Sign in"
-msgstr "Se connecter"
+msgstr "Accedi"
 
 # field_mail
 #: View/Account/lost_password.ctp:6 View/Account/register.ctp:39
@@ -841,7 +841,7 @@ msgstr "Sauvegarder"
 # label_register
 #: View/Account/register.ctp:1 View/Elements/account_menu.ctp:9
 msgid "Register"
-msgstr "S'inscrire"
+msgstr "Registrati"
 
 # text_caracters_minimum
 #: View/Account/register.ctp:19 View/Elements/users/form.ctp:40
@@ -1072,7 +1072,7 @@ msgstr "Appliquer"
 #: View/Admin/projects.ctp:57 View/Elements/projects/sidebar/activity.ctp:10
 #: View/Projects/index.ctp:39 View/Projects/show.ctp:13
 msgid "Subprojects"
-msgstr "Sous-projets"
+msgstr "Sottoprogetti"
 
 # field_is_public
 #: View/Admin/projects.ctp:60 View/Elements/projects/form.ctp:28
@@ -1143,7 +1143,7 @@ msgstr "Obligatoire"
 #: View/CustomFields/list.ctp:29 View/Elements/custom_fields/form.ctp:126
 #: View/Elements/queries/form.ctp:15
 msgid "For all projects"
-msgstr "Pour tous les projets"
+msgstr "Per tutti i progetti"
 
 # label_used_by
 #: View/CustomFields/list.ctp:30
@@ -1966,7 +1966,7 @@ msgstr "Envoyer un email test"
 # setting_default_projects_public
 #: View/Elements/settings/projects.ctp:11
 msgid "New projects are public by default"
-msgstr "Les nouveaux projets sont publics par défaut"
+msgstr "New projects are public by default"
 
 # setting_sequential_project_identifiers
 #: View/Elements/settings/projects.ctp:19
@@ -2454,7 +2454,7 @@ msgstr "Connecté en tant que"
 #: View/Layouts/base.ctp:31 View/Search/index.ctp:1
 #: View/Themed/kuma/Layouts/base.ctp:31
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Cerca"
 
 # label_loading
 #: View/Layouts/base.ctp:84 View/Themed/kuma/Layouts/base.ctp:84
@@ -2497,7 +2497,7 @@ msgstr "Personnaliser cette page"
 # label_my_page
 #: View/My/page.ctp:6
 msgid "My page"
-msgstr "Ma page"
+msgstr "La mia pagina"
 
 # label_news_new
 #: View/News/add.ctp:1 View/News/index.ctp:2;6
