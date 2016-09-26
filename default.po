@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-26 17:40+0200\n"
+"PO-Revision-Date: 2016-09-26 17:51+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr "'La demande n'a pas été trouvée ou n'appartient pas à ce projet.'"
 #: Controller/MyController.php:33
 #: View/Elements/my/blocks/issuesassignedtome.ctp:1
 msgid "Issues assigned to me"
-msgstr "Demandes qui me sont assignées"
+msgstr "Issues assigned to me"
 
 # notice_can_t_change_password
 #: Controller/MyController.php:56
@@ -227,7 +227,7 @@ msgstr "Temps passé"
 
 #: Controller/TrackersController.php:81
 msgid "This tracker contains issues and can't be deleted."
-msgstr "Ce tracker contient des demandes et ne peut donc pas être supprimé."
+msgstr "This tracker contains issues and can't be deleted."
 
 # label_general
 #: Controller/UsersController.php:76 Vendor/candycane/SettingContainer.php:24
@@ -886,7 +886,7 @@ msgstr "Ultima connessione"
 # label_reported_issues
 #: View/Account/show.ctp:57 View/Elements/my/blocks/issuesreportedbyme.ctp:1
 msgid "Reported issues"
-msgstr "Demandes rapportées"
+msgstr "Problemi riportati"
 
 # label_export_to
 #: View/Account/show.ctp:79 View/News/index.ctp:70
@@ -1030,7 +1030,7 @@ msgstr "Installation"
 #: View/Wiki/special_date_index.ctp:4 View/Wiki/special_page_index.ctp:4
 #: View/Workflows/index.ctp:11
 msgid "No data to display"
-msgstr "Aucune donnée à afficher"
+msgstr "Nessun dato da visualizzare"
 
 #: View/Admin/plugins.ctp:74
 msgid "Do you want to create your own plugin? Run command bellow to create your plugin."
@@ -1065,7 +1065,7 @@ msgstr "Stato"
 #: View/IssueCategories/destroy.ctp:49 View/Issues/destroy.ctp:16
 #: View/Issues/index.ctp:10 View/My/password.ctp:43 View/Users/list.ctp:45
 msgid "Apply"
-msgstr "Appliquer"
+msgstr "Applica"
 
 # label_subproject_plural
 #: View/Admin/projects.ctp:57 View/Elements/projects/sidebar/activity.ctp:10
@@ -1462,7 +1462,7 @@ msgstr "Ajouter"
 #: View/Elements/issues/relations.ctp:9 View/Projects/roadmap.ctp:22
 #: View/Versions/show.ctp:66
 msgid "Related issues"
-msgstr "Demandes liées"
+msgstr "Problemi associati"
 
 # label_relation_delete
 #: View/Elements/issues/relations.ctp:33
@@ -1501,7 +1501,7 @@ msgstr "Annuler"
 #: View/Elements/issues/sidebar.ctp:1 View/Helper/CustomFieldHelper.php:37
 #: View/Issues/index.ctp:2
 msgid "Issues"
-msgstr "Demandes"
+msgstr "Problemi"
 
 # label_issue_view_all
 #: View/Elements/issues/sidebar.ctp:2
@@ -1695,7 +1695,7 @@ msgstr "Créer"
 # label_roadmap
 #: View/Elements/projects/sidebar/roadmap.ctp:6 View/Projects/roadmap.ctp:1;36
 msgid "Roadmap"
-msgstr "Feuille de route"
+msgstr "Tabella di marcia"
 
 # label_show_completed_versions
 #: View/Elements/projects/sidebar/roadmap.ctp:12
@@ -1980,12 +1980,12 @@ msgstr "Date range"
 # label_date_from
 #: View/Elements/timelog/date_range.ctp:25 View/Projects/activity.ctp:2;41;55
 msgid "From"
-msgstr "Du"
+msgstr "Da"
 
 # label_date_to
 #: View/Elements/timelog/date_range.ctp:35 View/Projects/activity.ctp:2;41;55
 msgid "To"
-msgstr "au"
+msgstr "a"
 
 # label_report_plural
 #: View/Elements/timelog/date_range.ctp:68
@@ -2089,7 +2089,7 @@ msgstr "Echéance dans %s "
 #: View/Projects/activity.ctp:36 View/Wiki/history.ctp:98
 #: View/Wiki/show.ctp:100
 msgid "Previous"
-msgstr "Précédent"
+msgstr "Precedente"
 
 # label_next
 #: View/Helper/CandyHelper.php:675 View/News/index.ctp:66
@@ -2332,7 +2332,7 @@ msgstr "Nuovo stato"
 # label_bulk_edit_selected_issues
 #: View/Issues/bulk_edit.ctp:1
 msgid "Bulk edit selected issues"
-msgstr "Modifier toutes les demandes sélectionnées"
+msgstr "Bulk edit selected issues"
 
 # label_no_change_option
 #: View/Issues/bulk_edit.ctp:21;32;42;54;64;84 View/Issues/move.ctp:40
@@ -2378,7 +2378,7 @@ msgstr "Confirmation"
 # text_destroy_time_entries_question
 #: View/Issues/destroy.ctp:8
 msgid "%.02f hours were reported on the issues you are about to delete. What do you want to do ?"
-msgstr "%.02f heures ont été comptabilisées sur les demandes que vous allez supprimer. Que souhaitez-vous faire ?"
+msgstr "%.02f hours were reported on the issues you are about to delete. What do you want to do ?"
 
 # text_destroy_time_entries
 #: View/Issues/destroy.ctp:10
@@ -2420,7 +2420,7 @@ msgstr "Fichiers"
 # label_issue_new
 #: View/Issues/new.ctp:29
 msgid "New issue"
-msgstr "Nouvelle demande"
+msgstr "Nuovo problema"
 
 # button_create_and_continue
 #: View/Issues/new.ctp:43
@@ -2642,12 +2642,12 @@ msgstr "Semaine"
 # field_is_in_chlog
 #: View/Trackers/edit.ctp:16 View/Trackers/new.ctp:16
 msgid "Issues displayed in changelog"
-msgstr "Demandes affichées dans le changelog"
+msgstr "Issues displayed in changelog"
 
 # field_is_in_roadmap
 #: View/Trackers/edit.ctp:20 View/Trackers/new.ctp:20
 msgid "Issues displayed in roadmap"
-msgstr "Demandes affichées dans la roadmap"
+msgstr "Issues displayed in roadmap"
 
 # label_tracker_new
 #: View/Trackers/list.ctp:9 View/Trackers/new.ctp:8
