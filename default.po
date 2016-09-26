@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-26 17:51+0200\n"
+"PO-Revision-Date: 2016-09-26 17:57+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "An email with instructions to choose a new password has been sent to you
 #: Controller/AdminController.php:86 Controller/UsersController.php:184
 #: Model/Query.php:38
 msgid "all"
-msgstr "tous"
+msgstr "tutti"
 
 # status_active
 #: Controller/AdminController.php:87 Controller/UsersController.php:185
@@ -297,23 +297,23 @@ msgstr "Projects"
 # label_equals
 #: Model/Query.php:33
 msgid "is"
-msgstr "est"
+msgstr "è"
 
 # label_not_equals
 #: Model/Query.php:34
 msgid "is not"
-msgstr "n'est pas"
+msgstr "non è"
 
 # label_open_issues_plural
 #: Model/Query.php:35 View/Elements/reports/_details.ctp:27
 #: View/Elements/reports/_simple.ctp:18
 msgid "open"
-msgstr "ouvert"
+msgstr "aperto"
 
 # label_closed_issues
 #: Model/Query.php:36
 msgid "closed"
-msgstr "fermé"
+msgstr "chiuso"
 
 # label_none
 #: Model/Query.php:37 View/Elements/settings/general.ctp:148;160
@@ -1046,7 +1046,7 @@ msgstr "Nuovo progetto"
 #: View/Admin/projects.ctp:16 View/Elements/queries/form.ctp:27
 #: View/Issues/index.ctp:7 View/Users/list.ctp:19;25
 msgid "Filters"
-msgstr "Filtres"
+msgstr "Filtri"
 
 # field_status
 #: View/Admin/projects.ctp:24 View/Elements/issues/form.ctp:42
@@ -1520,7 +1520,7 @@ msgstr "Sommario"
 #: View/Elements/issues/sidebar.ctp:6
 #: View/Elements/projects/sidebar/changelog.ctp:2 View/Projects/changelog.ctp:4
 msgid "Change log"
-msgstr "Journal des modifications"
+msgstr "Registro modifiche"
 
 # label_planning
 #: View/Elements/issues/sidebar.ctp:21
@@ -1531,7 +1531,7 @@ msgstr "Calendario"
 # label_query_plural
 #: View/Elements/issues/sidebar.ctp:28
 msgid "Custom queries"
-msgstr "Filtres personnalisés"
+msgstr "Filtri personalizzati"
 
 # field_assigned_to
 #: View/Elements/mailer/issue_text_html.ctp:10
@@ -1700,7 +1700,7 @@ msgstr "Tabella di marcia"
 # label_show_completed_versions
 #: View/Elements/projects/sidebar/roadmap.ctp:12
 msgid "Show completed versions"
-msgstr "Montrer les versions complétées"
+msgstr "Mostra versioni complete"
 
 # label_details
 #: View/Elements/projects/sidebar/show.ctp:17
@@ -1718,7 +1718,7 @@ msgstr "Rapport"
 # label_filter_add
 #: View/Elements/queries/filters.ctp:141
 msgid "Add filter"
-msgstr "Ajouter le filtre"
+msgstr "Aggiungi filtro"
 
 # label_default_columns
 #: View/Elements/queries/form.ctp:21
@@ -2281,7 +2281,7 @@ msgstr "cette année"
 # button_clear
 #: View/Helper/TimelogHelper.php:116 View/Issues/index.ctp:13
 msgid "Clear"
-msgstr "Effacer"
+msgstr "Pulisci"
 
 # button_unlock
 #: View/Helper/UsersHelper.php:31 View/Wiki/show.ctp:31
