@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-26 16:29+0200\n"
+"PO-Revision-Date: 2016-09-26 17:05+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,17 +46,17 @@ msgstr "Votre compte a été créé et attend maintenant l'approbation de l'admi
 # notice_account_invalid_creditentials
 #: Controller/AccountController.php:199
 msgid "Invalid user or password"
-msgstr "Utilisateur ou mot de passe invalide"
+msgstr "Username o password non valida"
 
 # notice_account_password_updated
 #: Controller/AccountController.php:319 Controller/MyController.php:66
 msgid "Password was successfully updated."
-msgstr "Le mot de passe a été mis à jour avec succès."
+msgstr "Password was successfully updated."
 
 # notice_account_lost_email_sent
 #: Controller/AccountController.php:348
 msgid "An email with instructions to choose a new password has been sent to you."
-msgstr "Un email avec les instructions pour choisir un nouveau mot de passe vous a été envoyé."
+msgstr "An email with instructions to choose a new password has been sent to you."
 
 # label_all
 #: Controller/AdminController.php:86 Controller/UsersController.php:184
@@ -162,12 +162,12 @@ msgstr "Demandes qui me sont assignées"
 # notice_can_t_change_password
 #: Controller/MyController.php:56
 msgid "This account uses an external authentication source. Impossible to change the password."
-msgstr "Ce compte utilise une source externe pour l'authentification. Impossible de modifier son mot de passe."
+msgstr "This account uses an external authentication source. Impossible to change the password."
 
 # notice_account_wrong_password
 #: Controller/MyController.php:70
 msgid "Wrong password"
-msgstr "Mauvais mot de passe"
+msgstr "Password errata"
 
 # notice_feeds_access_key_reseted
 #: Controller/MyController.php:78
@@ -270,7 +270,7 @@ msgstr "%s demande d'activation du compte"
 # mail_subject_lost_password
 #: Controller/Component/MailerComponent.php:174
 msgid "Your password"
-msgstr "Votre mot de passe"
+msgstr "La tua password"
 
 # label_news
 #: Controller/Component/MailerComponent.php:201 View/News/index.ctp:40;81
@@ -284,7 +284,7 @@ msgstr "Document"
 
 #: Model/Project.php:115
 msgid "Identifier must be between 2 and 20 characters, containing only letters, numbers and dashes."
-msgstr "L'identifiant doit être compris entre 3 et 20 caractères, et ne doit contenir que des lettres, des chiffres, des tirets \"-\" et des tirets bas \"_\"."
+msgstr "Identifier must be between 2 and 20 characters, containing only letters, numbers and dashes."
 
 # field_project
 #: Model/Project.php:709 View/Admin/projects.ctp:32;55
@@ -773,20 +773,20 @@ msgstr "Notification par email"
 #: View/Emails/text/lost_password.ctp:7
 #: View/mailer/lost_password.text.plain.ctp:7
 msgid "Login"
-msgstr "Identifiant"
+msgstr "Username"
 
 # field_password
 #: View/Account/login.ctp:17 View/Account/register.ctp:17
 #: View/Elements/users/form.ctp:38 View/My/password.ctp:16
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Password"
 
 # label_password_lost
 #: View/Account/login.ctp:34 View/Account/lost_password.ctp:1
 #: View/Account/password_recovery.ctp:1
 #: View/Elements/settings/authentication.ctp:48
 msgid "Lost password"
-msgstr "Mot de passe oublié"
+msgstr "Password dimenticata?"
 
 # label_login
 #: View/Account/login.ctp:38 View/Elements/account_menu.ctp:8
@@ -893,7 +893,7 @@ msgstr "Demandes rapportées"
 #: View/Account/show.ctp:79 View/News/index.ctp:70
 #: View/Projects/activity.ctp:64 View/Wiki/show.ctp:185
 msgid "Also available in:"
-msgstr "Disponible aussi dans:"
+msgstr "Disponibile anche in:"
 
 # label_administration
 #: View/Admin/index.ctp:1 View/Elements/admin/sidebar.ctp:1
@@ -1337,7 +1337,7 @@ msgstr "Formatage du texte"
 #: View/Elements/issues/edit.ctp:51 View/Elements/issues/form.ctp:155
 #: View/Issues/bulk_edit.ctp:97
 msgid "Help"
-msgstr "Aide"
+msgstr "Guida"
 
 # field_filename
 #: View/Elements/issues/edit.ctp:56 View/Elements/issues/form.ctp:127
@@ -1510,7 +1510,7 @@ msgstr "Demandes"
 #: View/Elements/my/blocks/issuesreportedbyme.ctp:14 View/Projects/index.ctp:14
 #: View/Projects/show.ctp:45
 msgid "View all issues"
-msgstr "Voir toutes les demandes"
+msgstr "Vedi tutti i problemi"
 
 # field_summary
 #: View/Elements/issues/sidebar.ctp:5 View/Workflows/edit.ctp:9
@@ -2237,7 +2237,7 @@ msgstr "Tous les projets"
 # label_my_projects
 #: View/Helper/SearchHelper.php:32 View/Projects/index.ctp:56
 msgid "My projects"
-msgstr "Mes projets"
+msgstr "I miei progetti"
 
 # label_sort_by
 #: View/Helper/SortHelper.php:103
@@ -2443,7 +2443,7 @@ msgstr "Mettre à jour"
 #: View/Timelog/details.ctp:48 View/Timelog/report.ctp:124
 #: View/Wiki/special_date_index.ctp:22 View/Wiki/special_page_index.ctp:20
 msgid "'Also available in:'"
-msgstr "'Disponible aussi dans :'"
+msgstr "'Disponibile anche in:'"
 
 # label_logged_as
 #: View/Layouts/base.ctp:24 View/Themed/kuma/Layouts/base.ctp:24
@@ -2464,16 +2464,16 @@ msgstr "Chargement..."
 # label_report
 #: View/Layouts/base.ctp:93 View/Themed/kuma/Layouts/base.ctp:93
 msgid "Report Bug"
-msgstr "Déclarer un bug"
+msgstr "Segnala un problema"
 
 # label_attribute_plural
 #: View/Layouts/base.ctp:95 View/Themed/kuma/Layouts/base.ctp:95
 msgid "Contributors"
-msgstr "Contributeurs"
+msgstr "Collaboratori"
 
 #: View/Layouts/base.ctp:99 View/Themed/kuma/Layouts/base.ctp:99
 msgid "Discussion"
-msgstr "Discussion"
+msgstr "Discussioni"
 
 #: View/Layouts/base.ctp:106 View/Themed/kuma/Layouts/base.ctp:106
 msgid "CakePHP: the rapid development php framework"
@@ -2529,7 +2529,7 @@ msgstr "Êtes-vous sûr de vouloir supprimer ce projet et toutes les données li
 # label_overall_activity
 #: View/Projects/index.ctp:15
 msgid "Overall activity"
-msgstr "Activité globale"
+msgstr "Attività globale"
 
 # field_filesize
 #: View/Projects/list_files.ctp:22
@@ -2564,7 +2564,7 @@ msgstr "Dernières annonces"
 # label_news_view_all
 #: View/Projects/show.ctp:76 View/Welcome/index.ctp:10
 msgid "View all news"
-msgstr "Voir toutes les annonces"
+msgstr "Vedi tutte le notizie"
 
 # label_query_new
 #: View/Queries/add.ctp:1
