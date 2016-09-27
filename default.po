@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-26 17:57+0200\n"
+"PO-Revision-Date: 2016-09-27 11:03+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "tutti"
 # status_active
 #: Controller/AdminController.php:87 Controller/UsersController.php:185
 msgid "active"
-msgstr "actif"
+msgstr "attivo"
 
 #: Controller/AdminController.php:141
 msgid "Installed plugin: %s"
@@ -100,7 +100,7 @@ msgstr "Une erreur est survenue lors de l'envoi de l'email (%s)."
 #: Controller/UsersController.php:65 Controller/VersionsController.php:51;69
 #: Controller/WikiController.php:245 Controller/WorkflowsController.php:88
 msgid "Successful update."
-msgstr "Mis à jour avec succès."
+msgstr "Aggiornamento avvenuto con successo."
 
 # notice_successful_delete
 #: Controller/CustomFieldsController.php:128
@@ -136,7 +136,7 @@ msgstr "No default issue status is defined. Please check your configuration (Go 
 
 #: Controller/IssuesController.php:329
 msgid "No tracker is associated to this project. Please check the Project settings."
-msgstr "No tracker is associated to this project. Please check the Project settings."
+msgstr "Nessuna traccia è associata a questo progetto. Controlla le impostazioni del progetto."
 
 # warning_attachments_not_saved
 #: Controller/IssuesController.php:503 Controller/WikiController.php:402
@@ -146,18 +146,18 @@ msgstr "%d fichier(s) n'a(ont) pas pu être sauvé(s)."
 # notice_failed_to_save_issues
 #: Controller/IssuesController.php:675;751;834
 msgid "\"Failed to save %d issue(s) on %d selected"
-msgstr "\"Echec dans l'enregistrement de %d demande(s) sur %d selectionnées"
+msgstr "\"Failed to save %d issue(s) on %d selected"
 
 # error_issue_not_found_in_project
 #: Controller/IssuesController.php:820
 msgid "'The issue was not found or does not belong to this project'"
-msgstr "'La demande n'a pas été trouvée ou n'appartient pas à ce projet.'"
+msgstr "'The issue was not found or does not belong to this project'"
 
 # label_assigned_to_me_issues
 #: Controller/MyController.php:33
 #: View/Elements/my/blocks/issuesassignedtome.ctp:1
 msgid "Issues assigned to me"
-msgstr "Issues assigned to me"
+msgstr "Problemi assegnati a me"
 
 # notice_can_t_change_password
 #: Controller/MyController.php:56
@@ -201,7 +201,7 @@ msgstr "\"Seulement pour ce que je suis ou qui me concerne\""
 #: Controller/QueriesController.php:63;94 Controller/RolesController.php:110
 #: Controller/UsersController.php:214
 msgid "Successful creation."
-msgstr "Création avec succès."
+msgstr "Creazione avvenuta con successo."
 
 # field_activity
 #: Controller/ProjectsController.php:814 View/Account/show.ctp:47
@@ -265,7 +265,7 @@ msgstr "L'activation de votre compte %s"
 # mail_subject_account_activation_request
 #: Controller/Component/MailerComponent.php:156
 msgid "%s account activation request"
-msgstr "%s demande d'activation du compte"
+msgstr "%s account activation request"
 
 # mail_subject_lost_password
 #: Controller/Component/MailerComponent.php:174
@@ -280,7 +280,7 @@ msgstr "Notizie"
 # label_document
 #: Model/Document.php:41
 msgid "Document"
-msgstr "Document"
+msgstr "Documento"
 
 #: Model/Project.php:115
 msgid "Identifier must be between 2 and 20 characters, containing only letters, numbers and dashes."
@@ -292,7 +292,7 @@ msgstr "Identifier must be between 2 and 20 characters, containing only letters,
 #: View/Elements/timelog/list.ctp:7 View/Elements/users/memberships.ctp:16
 #: View/Issues/move.ctp:15 View/Timelog/details_csv.ctp:7
 msgid "Project"
-msgstr "Projects"
+msgstr "Progetto"
 
 # label_equals
 #: Model/Query.php:33
@@ -411,7 +411,7 @@ msgstr "Auteur"
 # field_assigned_to
 #: Model/Query.php:593
 msgid "assigned_to"
-msgstr "Assigné à"
+msgstr "Assegnato a"
 
 # field_updated_on
 #: Model/Query.php:599
@@ -426,7 +426,7 @@ msgstr "Catégorie"
 # label_version_new
 #: Model/Query.php:611
 msgid "fixed_version"
-msgstr "Nouvelle version"
+msgstr "Nuova versione"
 
 # label_start_to_end
 #: Model/Query.php:617
@@ -450,7 +450,7 @@ msgstr "Ratio effectué"
 # field_created_on
 #: Model/Query.php:641
 msgid "created_on"
-msgstr "Créé le"
+msgstr "Creato il"
 
 # label_f_hour
 #: Model/TimeEntry.php:46 View/Helper/QueriesHelper.php:70
@@ -1088,7 +1088,7 @@ msgstr "Créé le"
 # button_archive
 #: View/Admin/projects.ctp:99
 msgid "Archive"
-msgstr "Archiver"
+msgstr "Archivia"
 
 # button_unarchive
 #: View/Admin/projects.ctp:103
@@ -1227,7 +1227,7 @@ msgstr "[%s] : %s"
 # label_jump_to_a_project
 #: View/Elements/project_selector.ctp:3
 msgid "Jump to a project..."
-msgstr "Aller à un projet..."
+msgstr "Vai al progetto..."
 
 # label_optional_description
 #: View/Elements/attachments/form.ctp:24
@@ -1289,7 +1289,7 @@ msgstr "Recherchable"
 # label_change_properties
 #: View/Elements/issues/edit.ctp:6 View/Issues/bulk_edit.ctp:12
 msgid "Change properties"
-msgstr "Changer les propriétés"
+msgstr "Cambia proprietà"
 
 # label_more
 #: View/Elements/issues/edit.ctp:8
@@ -1396,7 +1396,7 @@ msgstr "Catégorie"
 #: View/Elements/projects/settings/issue_categories.ctp:53
 #: View/Projects/add_issue_category.ctp:1
 msgid "New category"
-msgstr "Nouvelle catégorie"
+msgstr "Nuova categoria"
 
 # field_fixed_version
 #: View/Elements/issues/form.ctp:74 View/Issues/bulk_edit.ctp:58
@@ -1456,7 +1456,7 @@ msgstr "Décocher tous"
 #: View/Projects/add_file.ctp:22 View/Timelog/report.ctp:53
 #: View/Wiki/show.ctp:177
 msgid "Add"
-msgstr "Ajouter"
+msgstr "Aggiungi"
 
 # label_related_issues
 #: View/Elements/issues/relations.ctp:9 View/Projects/roadmap.ctp:22
@@ -1473,12 +1473,12 @@ msgstr "Supprimer la relation"
 #: View/Elements/issues/relations.ctp:59 View/Elements/timelog/list.ctp:8
 #: View/Timelog/details_csv.ctp:8 View/Timelog/edit.ctp:9
 msgid "Issue"
-msgstr "Demande"
+msgstr "Problema"
 
 # field_delay
 #: View/Elements/issues/relations.ctp:62
 msgid "Delay"
-msgstr "Délai"
+msgstr "Ritardo"
 
 # label_day_plural
 #: View/Elements/issues/relations.ctp:62 View/Elements/queries/filters.ctp:117
@@ -1486,7 +1486,7 @@ msgstr "Délai"
 #: View/Elements/settings/general.ctp:115 View/Helper/CandyHelper.php:511
 #: View/Timelog/report.ctp:34
 msgid "days"
-msgstr "jours"
+msgstr "giorni"
 
 # button_cancel
 #: View/Elements/issues/relations.ctp:65
@@ -1495,7 +1495,7 @@ msgstr "jours"
 #: View/IssueCategories/destroy.ctp:51 View/News/index.ctp:34
 #: View/News/show.ctp:45 View/Wiki/show.ctp:178
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Annulla"
 
 # label_issue_plural
 #: View/Elements/issues/sidebar.ctp:1 View/Helper/CustomFieldHelper.php:37
@@ -1509,7 +1509,7 @@ msgstr "Problemi"
 #: View/Elements/my/blocks/issuesreportedbyme.ctp:14 View/Projects/index.ctp:14
 #: View/Projects/show.ctp:45
 msgid "View all issues"
-msgstr " Vedi tutti i problemi"
+msgstr "Vedi tutti i problemi"
 
 # field_summary
 #: View/Elements/issues/sidebar.ctp:5 View/Workflows/edit.ctp:9
@@ -1537,14 +1537,13 @@ msgstr "Filtri personalizzati"
 #: View/Elements/mailer/issue_text_html.ctp:10
 #: View/Elements/mailer/issue_text_plain.ctp:6
 msgid "Assigned To"
-msgstr "Assigné à"
+msgstr "Assegnato a"
 
 # label_version
 #: View/Elements/mailer/issue_text_html.ctp:12
 #: View/Elements/mailer/issue_text_plain.ctp:8
-#, fuzzy
 msgid "Fixed Version"
-msgstr "Version"
+msgstr "Versione"
 
 # text_user_mail_option
 #: View/Elements/my/mail_notifications.ctp:24
@@ -1638,12 +1637,12 @@ msgstr "Ruolo"
 #: View/Elements/projects/settings/members.ctp:37
 #: View/Elements/users/memberships.ctp:33
 msgid "Change"
-msgstr "Change"
+msgstr "Cambia"
 
 # label_member_new
 #: View/Elements/projects/settings/members.ctp:101
 msgid "New member"
-msgstr "Nouveau membre"
+msgstr "Nuovo membro"
 
 # text_select_project_modules
 #: View/Elements/projects/settings/modules.ctp:9
@@ -1681,7 +1680,7 @@ msgstr "Nouvelle version"
 # text_unallowed_characters
 #: View/Elements/projects/settings/wiki.ctp:41
 msgid "Unallowed characters"
-msgstr "Caractères non autorisés"
+msgstr "Caratteri non autorizzati"
 
 # button_create
 #: View/Elements/projects/settings/wiki.ctp:60 View/Enumerations/new.ctp:12
@@ -1690,7 +1689,7 @@ msgstr "Caractères non autorisés"
 #: View/Projects/add_version.ctp:35 View/Trackers/new.ctp:28
 #: View/Users/add.ctp:12
 msgid "Create"
-msgstr "Créer"
+msgstr "Crea"
 
 # label_roadmap
 #: View/Elements/projects/sidebar/roadmap.ctp:6 View/Projects/roadmap.ctp:1;36
@@ -2296,7 +2295,7 @@ msgstr "Activer"
 # button_lock
 #: View/Helper/UsersHelper.php:62 View/Wiki/show.ctp:17
 msgid "Lock"
-msgstr "Bloquer"
+msgstr "Blocca"
 
 # button_unwatch
 #: View/Helper/WatchersHelper.php:44
@@ -2415,7 +2414,7 @@ msgstr "Historique"
 #: View/Issues/issue_to_pdf.ctp:114 View/Projects/add_file.ctp:20
 #: View/Projects/list_files.ctp:10;63
 msgid "Files"
-msgstr "Fichiers"
+msgstr "File"
 
 # label_issue_new
 #: View/Issues/new.ctp:29
@@ -2491,7 +2490,7 @@ msgstr "Impostazioni"
 # label_personalize_page
 #: View/My/page.ctp:2
 msgid "Personalize this page"
-msgstr "Personnaliser cette page"
+msgstr "Personalizza questa pagina"
 
 # label_my_page
 #: View/My/page.ctp:6
@@ -2672,7 +2671,7 @@ msgstr "Envoyer les informations du compte à l'utilisateur"
 # label_time_tracking
 #: View/Versions/show.ctp:26
 msgid "Time tracking"
-msgstr "Suivi du temps"
+msgstr "Monitoraggio"
 
 # label_home
 #: View/Welcome/index.ctp:1
