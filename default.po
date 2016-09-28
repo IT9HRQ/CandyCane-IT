@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-27 11:03+0200\n"
+"PO-Revision-Date: 2016-09-28 17:52+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -396,17 +396,17 @@ msgstr "Stato"
 # field_priority
 #: Model/Query.php:575
 msgid "priority"
-msgstr "Priorité"
+msgstr "Priorità"
 
 # field_subject
 #: Model/Query.php:581
 msgid "subject"
-msgstr "Sujet"
+msgstr "Oggetto"
 
 # field_author
 #: Model/Query.php:587
 msgid "author"
-msgstr "Auteur"
+msgstr "Autore"
 
 # field_assigned_to
 #: Model/Query.php:593
@@ -416,12 +416,12 @@ msgstr "Assegnato a"
 # field_updated_on
 #: Model/Query.php:599
 msgid "updated_on"
-msgstr "Mis à jour"
+msgstr "Aggiornato il"
 
 # field_category
 #: Model/Query.php:605
 msgid "category"
-msgstr "Catégorie"
+msgstr "Categoria"
 
 # label_version_new
 #: Model/Query.php:611
@@ -436,16 +436,16 @@ msgstr "Date de démarrage"
 # field_due_date
 #: Model/Query.php:623
 msgid "due_date"
-msgstr "Date d'échéance"
+msgstr "Data di fine"
 
 #: Model/Query.php:629
 msgid "estimated_hours"
-msgstr "Nombre d'heures estimé"
+msgstr "Ore stimate"
 
 # field_password_confirmation
 #: Model/Query.php:635
 msgid "done_ratio"
-msgstr "Ratio effectué"
+msgstr "Avanzamento"
 
 # field_created_on
 #: Model/Query.php:641
@@ -516,7 +516,7 @@ msgstr "Basse"
 # default_priority_normal
 #: Plugin/CcInstall/Controller/CcInstallController.php:210
 msgid "Normal"
-msgstr "Normal"
+msgstr "Normale"
 
 # default_priority_high
 #: Plugin/CcInstall/Controller/CcInstallController.php:211
@@ -1232,7 +1232,7 @@ msgstr "Vai al progetto..."
 # label_optional_description
 #: View/Elements/attachments/form.ctp:24
 msgid "Optional description"
-msgstr "Description (optionnelle)"
+msgstr "Descrizione (opzionale)"
 
 # label_add_another_file
 #: View/Elements/attachments/form.ctp:27
@@ -1342,14 +1342,14 @@ msgstr "Guida"
 #: View/Elements/issues/edit.ctp:56 View/Elements/issues/form.ctp:127
 #: View/Helper/IssuesHelper.php:90 View/Projects/list_files.ctp:20
 msgid "File"
-msgstr "Fichier"
+msgstr "File"
 
 # label_preview
 #: View/Elements/issues/edit.ctp:64 View/Issues/new.ctp:44 View/News/add.ctp:9
 #: View/News/index.ctp:12 View/News/show.ctp:31 View/Wiki/edit.ctp:30
 #: View/common/_preview.ctp:1
 msgid "Preview"
-msgstr "Prévisualiser"
+msgstr "Anteprima"
 
 # field_tracker
 #: View/Elements/issues/form.ctp:3 View/Elements/issues/list_simple.ctp:7
@@ -1363,7 +1363,7 @@ msgstr "Tracker"
 #: View/Elements/issues/form.ctp:31 View/Elements/issues/list_simple.ctp:8
 #: View/Issues/issue_to_pdf.ctp:63 View/Timelog/details_csv.ctp:10
 msgid "Subject"
-msgstr "Sujet"
+msgstr "Oggetto"
 
 # field_priority
 #: View/Elements/issues/form.ctp:46 View/Elements/mailer/issue_text_html.ctp:9
@@ -1371,7 +1371,7 @@ msgstr "Sujet"
 #: View/Issues/context_menu.ctp:25 View/Issues/issue_to_pdf.ctp:18
 #: View/Issues/show.ctp:57 View/Reports/issue_report.ctp:19
 msgid "Priority"
-msgstr "Priorité"
+msgstr "Priorità"
 
 # field_assigned_to
 #: View/Elements/issues/form.ctp:50
@@ -1381,7 +1381,7 @@ msgstr "Priorité"
 #: View/Issues/show.ctp:61 View/Projects/add_issue_category.ctp:14
 #: View/Reports/issue_report.ctp:26
 msgid "Assigned to"
-msgstr "Assigné à"
+msgstr "Assegnato a"
 
 # field_category
 #: View/Elements/issues/form.ctp:54 View/Elements/mailer/issue_text_html.ctp:11
@@ -1402,12 +1402,12 @@ msgstr "Nuova categoria"
 #: View/Elements/issues/form.ctp:74 View/Issues/bulk_edit.ctp:58
 #: View/Issues/context_menu.ctp:37 View/Issues/show.ctp:72
 msgid "Target version"
-msgstr "Version cible"
+msgstr "Versione obiettivo"
 
 # field_start_page
 #: View/Elements/issues/form.ctp:81
 msgid "Start date"
-msgstr "Date de démarrage"
+msgstr "Data inizio"
 
 # field_due_date
 #: View/Elements/issues/form.ctp:86 View/Issues/bulk_edit.ctp:73
@@ -1419,17 +1419,17 @@ msgstr "Date d'échéance"
 #: View/Elements/issues/form.ctp:91 View/Issues/show.ctp:74
 #: View/Versions/show.ctp:29
 msgid "Estimated time"
-msgstr "Temps estimé"
+msgstr "Tempo stimato"
 
 # label_none
 #: View/Elements/issues/form.ctp:95 View/Issues/show.ctp:62
 msgid "Done"
-msgstr "Effectué"
+msgstr "Avanzamento"
 
 # label_issue_watchers
 #: View/Elements/issues/form.ctp:134 View/Elements/watchers/watchers.ctp:19
 msgid "Watchers"
-msgstr "Observateurs"
+msgstr "Osservatori"
 
 # label_updated_time_by
 #: View/Elements/issues/history.ctp:7
@@ -2017,7 +2017,7 @@ msgstr "Pas de demande pour cette version"
 # field_start_page
 #: View/Elements/wiki/sidebar.ctp:4
 msgid "Start page"
-msgstr "Page de démarrage"
+msgstr "Pagina iniziale"
 
 # label_index_by_title
 #: View/Elements/wiki/sidebar.ctp:12 View/Wiki/special_page_index.ctp:1
@@ -2100,7 +2100,7 @@ msgstr "Suivant"
 # label_per_page
 #: View/Helper/CandyHelper.php:751
 msgid "Per page "
-msgstr "Par page"
+msgstr "Per pagina "
 
 # label_less_than_ago
 #: View/Helper/CandyHelper.php:1550;1561
@@ -2424,7 +2424,7 @@ msgstr "Nuovo problema"
 # button_create_and_continue
 #: View/Issues/new.ctp:43
 msgid "Create and continue"
-msgstr "Créer et continuer"
+msgstr "Crea e continua"
 
 # text_user_wrote
 #: View/Issues/reply.ctp:2
