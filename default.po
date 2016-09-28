@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-28 17:52+0200\n"
+"PO-Revision-Date: 2016-09-28 18:00+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "MIME-Version: 1.0\n"
@@ -1357,7 +1357,7 @@ msgstr "Anteprima"
 #: View/Timelog/details_csv.ctp:9 View/Trackers/edit.ctp:8
 #: View/Trackers/list.ctp:16 View/Workflows/edit.ctp:26
 msgid "Tracker"
-msgstr "Tracker"
+msgstr "Traccia"
 
 # field_subject
 #: View/Elements/issues/form.ctp:31 View/Elements/issues/list_simple.ctp:8
@@ -1413,7 +1413,7 @@ msgstr "Data inizio"
 #: View/Elements/issues/form.ctp:86 View/Issues/bulk_edit.ctp:73
 #: View/Issues/issue_to_pdf.ctp:48 View/Issues/show.ctp:58
 msgid "Due date"
-msgstr "Date d'échéance"
+msgstr "Data di fine"
 
 # field_estimated_hours
 #: View/Elements/issues/form.ctp:91 View/Issues/show.ctp:74
