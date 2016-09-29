@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2016-09-29 17:12+0200\n"
-"PO-Revision-Date: 2016-09-29 17:32+0200\n"
+"PO-Revision-Date: 2016-09-29 17:49+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "Language: it_IT\n"
@@ -322,7 +322,7 @@ msgstr "chiuso"
 #: View/Helper/TimelogHelper.php:135 View/Issues/bulk_edit.ctp:39;61
 #: View/Issues/context_menu.ctp:45;79
 msgid "none"
-msgstr "aucun"
+msgstr "nessuno"
 
 # label_in_less_than
 #: Model/Query.php:41
@@ -1332,7 +1332,7 @@ msgstr "Notes"
 #: View/Elements/issues/edit.ctp:51 View/Elements/issues/form.ctp:155
 #: View/Elements/settings/general.ctp:141 View/Issues/bulk_edit.ctp:97
 msgid "Text formatting"
-msgstr "Formatage du texte"
+msgstr "Formato testo"
 
 # label_help
 #: View/Elements/issues/edit.ctp:51 View/Elements/issues/form.ctp:155
@@ -1791,17 +1791,17 @@ msgstr "Authentification LDAP"
 # setting_app_title
 #: View/Elements/settings/general.ctp:3
 msgid "Application title"
-msgstr "Titre de l'application"
+msgstr "Titolo dell'applicazione"
 
 # setting_welcome_text
 #: View/Elements/settings/general.ctp:13
 msgid "Welcome text"
-msgstr "Texte d'accueil"
+msgstr "Testo di benvenuto"
 
 # label_theme
 #: View/Elements/settings/general.ctp:25
 msgid "Theme"
-msgstr "Thême"
+msgstr "Tema"
 
 # label_default
 #: View/Elements/settings/general.ctp:31
@@ -1811,12 +1811,12 @@ msgstr "Défaut"
 # setting_default_language
 #: View/Elements/settings/general.ctp:35
 msgid "Default language"
-msgstr "Langue par défaut"
+msgstr "Lingua predefinita"
 
 # setting_date_format
 #: View/Elements/settings/general.ctp:44
 msgid "Date format"
-msgstr "Format de date"
+msgstr "Formato data"
 
 # label_language_based
 #: View/Elements/settings/general.ctp:50;60
@@ -1826,22 +1826,22 @@ msgstr "Basato sulla lingua dell'utente"
 # setting_time_format
 #: View/Elements/settings/general.ctp:54
 msgid "Time format"
-msgstr "Format de l'heure"
+msgstr "Formato ora"
 
 # setting_user_format
 #: View/Elements/settings/general.ctp:64
 msgid "Users display format"
-msgstr "Format d'affichage des utilisateurs"
+msgstr "Formato nome utente"
 
 # setting_attachment_max_size
 #: View/Elements/settings/general.ctp:83
 msgid "Attachment max. size"
-msgstr "Taille maximale de pièce jointe"
+msgstr "Dimensione massima allegato"
 
 # setting_per_page_options
 #: View/Elements/settings/general.ctp:94
 msgid "Objects per page options"
-msgstr "Objets par page"
+msgstr "Oggetti per pagina"
 
 # text_comma_separated
 #: View/Elements/settings/general.ctp:104
@@ -1851,12 +1851,12 @@ msgstr "Plusieurs valeurs autorisées (séparées par des virgules)."
 # setting_activity_days_default
 #: View/Elements/settings/general.ctp:106
 msgid "Days displayed on project activity"
-msgstr "Jours affichés sur l'activité du projet"
+msgstr "Giorni mostrati nell'attività di progetto"
 
 # setting_host_name
 #: View/Elements/settings/general.ctp:117
 msgid "Host name and path"
-msgstr "Nom d'hôte et répertoire"
+msgstr "Nome host e percorso"
 
 # label_example
 #: View/Elements/settings/general.ctp:127
@@ -1866,27 +1866,27 @@ msgstr "Exemple"
 # setting_protocol
 #: View/Elements/settings/general.ctp:129
 msgid "Protocol"
-msgstr "Protocole"
+msgstr "Protocollo"
 
 # setting_wiki_compression
 #: View/Elements/settings/general.ctp:152
 msgid "Wiki history compression"
-msgstr "Compression de l'historique du wiki"
+msgstr "Compressione storia del wiki"
 
 # setting_feeds_limit
 #: View/Elements/settings/general.ctp:164
 msgid "Feed content limit"
-msgstr "Limite de contenu du flux"
+msgstr "Elementi nei feed"
 
 # setting_diff_max_lines_displayed
 #: View/Elements/settings/general.ctp:175
 msgid "Max number of diff lines displayed"
-msgstr "Nombre maximal de lignes de diff affichées"
+msgstr "Numero massimo di linee nei diff"
 
 # setting_gravatar_enabled
 #: View/Elements/settings/general.ctp:186
 msgid "Use Gravatar user icons"
-msgstr "Utiliser les icônes Gravatar"
+msgstr "Usa Gravatar per gli utenti"
 
 # setting_cross_project_issue_relations
 #: View/Elements/settings/issues.ctp:12
