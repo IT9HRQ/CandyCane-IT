@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
-"POT-Creation-Date: 2013-01-31 22:16+0100\n"
-"PO-Revision-Date: 2016-09-28 18:00+0200\n"
+"POT-Creation-Date: 2016-09-29 17:12+0200\n"
+"PO-Revision-Date: 2016-09-29 17:32+0200\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
-"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.9\n"
 
 #: Console/Command/CcPluginShell.php:49
@@ -24,9 +24,8 @@ msgid "Do you want verbose output?"
 msgstr "Souhaitez-vous une sortie verbeuse ?"
 
 #: Console/Command/CcPluginShell.php:145
-#, fuzzy
 msgid "Created: %s in %s"
-msgstr "Créé: %s en %s"
+msgstr "Creato: %s in %s"
 
 # notice_account_activated
 #: Controller/AccountController.php:77;144
@@ -36,7 +35,7 @@ msgstr "Votre comtpe est activé. Vous pouvez désormais vous identifier."
 # notice_account_register_done
 #: Controller/AccountController.php:133
 msgid "Account was successfully created. To activate your account, click on the link that was emailed to you."
-msgstr "Le compte a été créé avec succès. Pour activer votre compte, cliquez sur le lien qui vous a été envoyé par email."
+msgstr "Account was successfully created. To activate your account, click on the link that was emailed to you."
 
 # notice_account_pending
 #: Controller/AccountController.php:160
@@ -80,12 +79,12 @@ msgstr "Plugin non installé: %s"
 # notice_email_sent
 #: Controller/AdminController.php:160
 msgid "An email was sent to %s"
-msgstr "Un email a été envoyé à %s"
+msgstr "Una email è stata inviata a %s"
 
 # notice_email_error
 #: Controller/AdminController.php:162
 msgid "An error occurred while sending mail (%s)"
-msgstr "Une erreur est survenue lors de l'envoi de l'email (%s)."
+msgstr "Errore nell'invio dell'email (%s)."
 
 # notice_successful_update
 #: Controller/CustomFieldsController.php:58;88
@@ -188,12 +187,12 @@ msgstr "\"Per ogni evento nei miei progetti\""
 # label_user_mail_option_selected
 #: Controller/MyController.php:212
 msgid "\"For any event on the selected projects only...\""
-msgstr "\"A chaque évènement sur les projets sélectionnés uniquement\""
+msgstr "\"For any event on the selected projects only...\""
 
 # label_user_mail_option_none
 #: Controller/MyController.php:214
 msgid "\"Only for things I watch or I'm involved in\""
-msgstr "\"Seulement pour ce que je suis ou qui me concerne\""
+msgstr "\"Only for things I watch or I'm involved in\""
 
 # notice_successful_create
 #: Controller/NewsController.php:157;220
@@ -232,7 +231,7 @@ msgstr "This tracker contains issues and can't be deleted."
 # label_general
 #: Controller/UsersController.php:76 Vendor/candycane/SettingContainer.php:24
 msgid "General"
-msgstr "Général"
+msgstr "Generale"
 
 # label_project_plural
 #: Controller/UsersController.php:81 Vendor/candycane/SettingContainer.php:34
@@ -291,8 +290,11 @@ msgstr "Identifier must be between 2 and 20 characters, containing only letters,
 #: View/CustomFields/list.ctp:43 View/Elements/roles/form.ctp:21
 #: View/Elements/timelog/list.ctp:7 View/Elements/users/memberships.ctp:16
 #: View/Issues/move.ctp:15 View/Timelog/details_csv.ctp:7
+#, fuzzy
 msgid "Project"
-msgstr "Progetto"
+msgid_plural "Projects"
+msgstr[0] "Progetto"
+msgstr[1] "Progetto"
 
 # label_equals
 #: Model/Query.php:33
@@ -501,7 +503,7 @@ msgstr "Could not delete installation files."
 # default_doc_category_user
 #: Plugin/CcInstall/Controller/CcInstallController.php:207
 msgid "User documentation"
-msgstr "Documentation utilisateur"
+msgstr "Documentazione utente"
 
 # default_doc_category_tech
 #: Plugin/CcInstall/Controller/CcInstallController.php:208
@@ -754,7 +756,7 @@ msgstr "Categorie di problemi"
 # label_authentication
 #: Vendor/candycane/SettingContainer.php:29 View/Elements/users/form.ctp:28
 msgid "Authentication"
-msgstr "Authentification"
+msgstr "Autenticazione"
 
 # project_module_issue_tracking
 #: Vendor/candycane/SettingContainer.php:39 View/Projects/show.ctp:37
@@ -764,7 +766,7 @@ msgstr "Traccia problemi"
 # field_mail_notification
 #: Vendor/candycane/SettingContainer.php:44 View/My/account.ctp:27
 msgid "Email notifications"
-msgstr "Notification par email"
+msgstr "Notifica per email"
 
 # field_login
 #: View/Account/login.ctp:10 View/Account/register.ctp:12
@@ -796,7 +798,7 @@ msgstr "Accedi"
 #: View/Account/lost_password.ctp:6 View/Account/register.ctp:39
 #: View/Account/show.ctp:12 View/Elements/my/informations.ctp:10
 msgid "Email"
-msgstr "E-Mail"
+msgstr "Email"
 
 # button_submit
 #: View/Account/lost_password.ctp:9 View/Account/register.ctp:57
@@ -815,7 +817,7 @@ msgstr "New password"
 #: View/Elements/users/form.ctp:44 View/My/password.ctp:34
 #: View/Projects/destroy.ctp:1 View/Wikis/destroy.ctp:1
 msgid "Confirmation"
-msgstr "Confirmation"
+msgstr "Conferma"
 
 # button_save
 #: View/Account/password_recovery.ctp:32 View/CustomFields/edit.ctp:12
@@ -845,7 +847,7 @@ msgstr "Registrati"
 # text_caracters_minimum
 #: View/Account/register.ctp:19 View/Elements/users/form.ctp:40
 msgid "Must be at least %d characters long."
-msgstr "Doit faire au moins %d caractères."
+msgstr "Deve essere lunga almeno %d caratteri."
 
 # field_firstname
 #: View/Account/register.ctp:29 View/Elements/my/informations.ctp:2
@@ -876,7 +878,7 @@ msgstr "Modifica"
 # label_registered_on
 #: View/Account/show.ctp:23
 msgid "Registered on"
-msgstr "Inscrit le"
+msgstr "Iscritto il"
 
 # label_last_login
 #: View/Account/show.ctp:26
@@ -1548,17 +1550,17 @@ msgstr "Versione"
 # text_user_mail_option
 #: View/Elements/my/mail_notifications.ctp:24
 msgid "\"For unselected projects, you will only receive notifications about things you watch or you're involved in (eg. issues you're the author or assignee).\""
-msgstr "\"Pour les projets non cochés, vous recevrez uniquement les notifications concernant ce que vous suivez ou qui vous concernent (ex. demandes dont vous êtes l'auteur ou qui vous sont assignées).\""
+msgstr "\"For unselected projects, you will only receive notifications about things you watch or you're involved in (eg. issues you're the author or assignee).\""
 
 # label_user_mail_no_self_notified
 #: View/Elements/my/mail_notifications.ctp:29
 msgid "\"I don't want to be notified of changes that I make myself\""
-msgstr "\"Je ne veux pas être notifié des changements que j'ai moi même effectué.\""
+msgstr "\"I don't want to be notified of changes that I make myself\""
 
 # field_hide_mail
 #: View/Elements/my/preferences.ctp:1
 msgid "Hide my email address"
-msgstr "Cacher mon adresse email"
+msgstr "Nascondi il mio indirizzo email"
 
 # field_time_zone
 #: View/Elements/my/preferences.ctp:2
@@ -1625,7 +1627,7 @@ msgstr "Catégorie de la demande"
 #: View/Elements/projects/settings/members.ctp:10
 #: View/Timelog/details_csv.ctp:5 View/Users/edit.ctp:12;58
 msgid "User"
-msgstr "Utilisateur"
+msgstr "Utente"
 
 # label_role
 #: View/Elements/projects/settings/members.ctp:11;107 View/Roles/edit.ctp:8
@@ -1819,7 +1821,7 @@ msgstr "Format de date"
 # label_language_based
 #: View/Elements/settings/general.ctp:50;60
 msgid "Based on user's language"
-msgstr "Basé sur la langue de l'utilisateur"
+msgstr "Basato sulla lingua dell'utente"
 
 # setting_time_format
 #: View/Elements/settings/general.ctp:54
@@ -2000,9 +2002,8 @@ msgstr "Membre"
 # label_f_hour
 #: View/Elements/timelog/report_criteria.ctp:14;16
 #: View/Timelog/report.ctp:116;118
-#, fuzzy
 msgid "%.2f"
-msgstr "%.2f heure"
+msgstr "%.2f ore"
 
 # label_role_plural
 #: View/Elements/users/memberships.ctp:17;65 View/Roles/list.ctp:12
@@ -2061,7 +2062,7 @@ msgstr "'Les ré-assigner à cette valeur:'"
 # label_enumeration_new
 #: View/Enumerations/list.ctp:43 View/Enumerations/new.ctp:8
 msgid "New value"
-msgstr "Nouvelle valeur"
+msgstr "Nuovo valore"
 
 # general_fmt_date
 #: View/Helper/CandyHelper.php:418
@@ -2128,7 +2129,7 @@ msgstr "une demi-minute"
 # permission_add_issue_notes
 #: View/Helper/CandyHelper.php:1566
 msgid "%d minutes"
-msgstr "%d minutes"
+msgstr "%d minuti"
 
 #: View/Helper/CandyHelper.php:1568;1570
 msgid "about an hour"
@@ -2552,7 +2553,7 @@ msgstr "Homepage"
 # label_on
 #: View/Projects/show.ctp:42
 msgid "'on'"
-msgstr "'sur'"
+msgstr "su"
 
 # label_news_latest
 #: View/Projects/show.ctp:71 View/Welcome/index.ctp:8
@@ -2856,4 +2857,13 @@ msgstr "Longueur minimale"
 
 #: Model/User.php:validation for field password
 msgid "validates_confirmation_of"
-msgstr ""
+msgstr "validates_confirmation_of"
+
+msgid "Issue priorities"
+msgstr "Priorità problemi"
+
+msgid "Document categories"
+msgstr "Categorie documenti"
+
+msgid "Activities (time tracking)"
+msgstr "Attività (monitoraggio)"
