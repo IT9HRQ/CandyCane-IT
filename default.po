@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2016-09-29 17:12+0200\n"
-"PO-Revision-Date: 2016-09-29 17:49+0200\n"
+"PO-Revision-Date: 2016-12-08 01:54+0100\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "Language: it_IT\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: Console/Command/CcPluginShell.php:49
 msgid "Enter the name of the plugin in CamelCase format start with \"Cc\""
@@ -1009,16 +1009,16 @@ msgstr "Inconnu"
 # button_update
 #: View/Admin/plugins.ctp:49
 msgid "Upgrade"
-msgstr "Mettre à jour"
+msgstr "Aggiorna"
 
 #: View/Admin/plugins.ctp:53
 msgid "Uninstall"
-msgstr "Désinstaller"
+msgstr "Disinstalla"
 
 # label_internal
 #: View/Admin/plugins.ctp:60
 msgid "Install"
-msgstr "Installation"
+msgstr "Installa"
 
 # label_no_data
 #: View/Admin/plugins.ctp:71 View/Elements/issues/list_simple.ctp:38
@@ -1162,7 +1162,7 @@ msgstr "Ordina"
 #: View/IssueStatuses/list.ctp:29 View/Roles/list.ctp:37;45
 #: View/Trackers/list.ctp:27
 msgid "Move to top"
-msgstr "Déplacer en haut"
+msgstr "Sposta in alto"
 
 # label_sort_higher
 #: View/CustomFields/list.ctp:47 View/Enumerations/list.ctp:26
@@ -1183,7 +1183,7 @@ msgstr "Descendre"
 #: View/IssueStatuses/list.ctp:32 View/Roles/list.ctp:82;90
 #: View/Trackers/list.ctp:30
 msgid "Move to bottom"
-msgstr "Déplacer en bas"
+msgstr "Sposta in basso"
 
 # text_are_you_sure
 #: View/CustomFields/list.ctp:54 View/Elements/attachments/links.ctp:11
@@ -1239,7 +1239,7 @@ msgstr "Descrizione (opzionale)"
 # label_add_another_file
 #: View/Elements/attachments/form.ctp:27
 msgid "Add another file"
-msgstr "Ajouter un autre fichier"
+msgstr "Aggiungi un altro file"
 
 # label_max_size
 #: View/Elements/attachments/form.ctp:28
@@ -1741,7 +1741,7 @@ msgstr "Les demandes peuvent être assignées à ce rôle"
 # label_copy_workflow_from
 #: View/Elements/roles/form.ctp:12 View/Trackers/new.ctp:24
 msgid "Copy workflow from"
-msgstr "Copier le workflow depuis"
+msgstr "Copia il flusso di lavoro da"
 
 # label_permissions
 #: View/Elements/roles/form.ctp:18 View/Roles/report.ctp:9
@@ -2306,7 +2306,7 @@ msgstr "Ne plus observer"
 # button_watch
 #: View/Helper/WatchersHelper.php:44
 msgid "Watch"
-msgstr "Surveiller"
+msgstr "Osserva"
 
 # text_issue_category_destroy_assignments
 #: View/IssueCategories/destroy.ctp:27
@@ -2357,13 +2357,13 @@ msgstr "%% Effectué"
 # button_copy
 #: View/Issues/context_menu.ctp:99 View/Issues/show.ctp:36
 msgid "Copy"
-msgstr "Copier"
+msgstr "Copia"
 
 # button_move
 #: View/Issues/context_menu.ctp:110 View/Issues/move.ctp:1;43
 #: View/Issues/show.ctp:37
 msgid "Move"
-msgstr "Déplacer"
+msgstr "Sposta"
 
 # text_issues_destroy_confirmation
 #: View/Issues/context_menu.ctp:115
@@ -2682,7 +2682,7 @@ msgstr "Home"
 # label_project_latest
 #: View/Welcome/index.ctp:18
 msgid "Latest projects"
-msgstr "Derniers projets"
+msgstr "Ultimi progetti"
 
 # button_annotate
 #: View/Wiki/history.ctp:78
