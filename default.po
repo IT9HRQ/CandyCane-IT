@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2016-09-29 17:12+0200\n"
-"PO-Revision-Date: 2016-12-08 01:54+0100\n"
+"PO-Revision-Date: 2016-12-08 02:35+0100\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "Language: it_IT\n"
@@ -327,28 +327,28 @@ msgstr "nessuno"
 # label_in_less_than
 #: Model/Query.php:41
 msgid "in less than"
-msgstr "moins que"
+msgstr "in meno di"
 
 # label_in_more_than
 #: Model/Query.php:42
 msgid "in more than"
-msgstr "dans plus de"
+msgstr "in più di"
 
 # label_in
 #: Model/Query.php:43
 msgid "in"
-msgstr "dans"
+msgstr "in"
 
 # label_today
 #: Model/Query.php:44 View/Helper/CandyHelper.php:455
 #: View/Helper/TimelogHelper.php:90
 msgid "today"
-msgstr "aujourd'hui"
+msgstr "Oggi"
 
 # label_this_week
 #: Model/Query.php:45 View/Helper/TimelogHelper.php:92
 msgid "this week"
-msgstr "cette semaine"
+msgstr "Questa settimana"
 
 # label_less_than_ago
 #: Model/Query.php:46
@@ -378,7 +378,7 @@ msgstr "ne contient pas"
 # label_me
 #: Model/Query.php:88
 msgid "me"
-msgstr "moi"
+msgstr "Io"
 
 # general_first_day_of_week
 #: Model/Query.php:392
@@ -1911,7 +1911,7 @@ msgstr "Colonnes affichées par défaut dans la liste des demandes"
 # setting_mail_from
 #: View/Elements/settings/notifications.ctp:10
 msgid "Emission email address"
-msgstr "Adresse d'emission des emails"
+msgstr "Indirizzo email emittente"
 
 #: View/Elements/settings/notifications.ctp:21
 msgid "email transport"
@@ -2023,12 +2023,12 @@ msgstr "Pagina iniziale"
 # label_index_by_title
 #: View/Elements/wiki/sidebar.ctp:12 View/Wiki/special_page_index.ctp:1
 msgid "Index by title"
-msgstr "Trier par titre"
+msgstr "Ordina per titolo"
 
 # label_index_by_date
 #: View/Elements/wiki/sidebar.ctp:20 View/Wiki/special_date_index.ctp:1
 msgid "Index by date"
-msgstr "Trier par date"
+msgstr "Ordina per data"
 
 # mail_body_account_activation_request
 #: View/Emails/html/account_activation_request.ctp:2
@@ -2409,7 +2409,7 @@ msgstr "Révisions associées"
 #: View/Issues/issue_to_pdf.ctp:94 View/Issues/show.ctp:167
 #: View/Wiki/history.ctp:3 View/Wiki/show.ctp:84
 msgid "History"
-msgstr "Historique"
+msgstr "Cronologia"
 
 # project_module_files
 #: View/Issues/issue_to_pdf.ctp:114 View/Projects/add_file.ctp:20
@@ -2435,7 +2435,7 @@ msgstr "%s a écrit:\\n"
 # button_update
 #: View/Issues/show.ctp:5;178
 msgid "Update"
-msgstr "Mettre à jour"
+msgstr "Aggiorna"
 
 # label_export_to
 #: View/Issues/show.ctp:186 View/Projects/index.ctp:61
@@ -2518,7 +2518,7 @@ msgstr "Ajouter un commentaire"
 #: View/Projects/add_file.ctp:1 View/Projects/list_files.ctp:3
 #: View/Wiki/show.ctp:156
 msgid "New file"
-msgstr "Nouveau fichier"
+msgstr "Nuovo file"
 
 # text_project_destroy_confirmation
 #: View/Projects/destroy.ctp:4
@@ -2697,7 +2697,7 @@ msgstr "Voir les différences"
 # button_rename
 #: View/Wiki/rename.ctp:1;32 View/Wiki/show.ctp:46
 msgid "Rename"
-msgstr "Renommer"
+msgstr "Rinomina"
 
 # field_title
 #: View/Wiki/rename.ctp:20
