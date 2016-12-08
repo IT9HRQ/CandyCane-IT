@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: candycane 0.72\n"
 "POT-Creation-Date: 2016-09-29 17:12+0200\n"
-"PO-Revision-Date: 2016-12-08 02:35+0100\n"
+"PO-Revision-Date: 2016-12-08 02:40+0100\n"
 "Last-Translator: Thomas Bouchet <thomas.bouchet@sourismaline.fr>\n"
 "Language-Team: Francesco Bianco <bianco@javanile.org>\n"
 "Language: it_IT\n"
@@ -222,7 +222,7 @@ msgstr "This role is in use and can not be deleted."
 #: View/Timelog/details.ctp:15;64;66;72;74;76 View/Timelog/edit.ctp:1
 #: View/Timelog/report.ctp:15;139 View/Versions/show.ctp:39
 msgid "Spent time"
-msgstr "Temps passé"
+msgstr "Tempo impiegato"
 
 #: Controller/TrackersController.php:81
 msgid "This tracker contains issues and can't be deleted."
@@ -1244,7 +1244,7 @@ msgstr "Aggiungi un altro file"
 # label_max_size
 #: View/Elements/attachments/form.ctp:28
 msgid "Maximum size"
-msgstr "Taille maximale"
+msgstr "Dimensione massima"
 
 # label_min_max_length
 #: View/Elements/custom_fields/form.ctp:87
